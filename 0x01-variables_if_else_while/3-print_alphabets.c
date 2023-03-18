@@ -6,11 +6,11 @@
 int main(void)
 {
 char letter;
+char wifey;
 for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar(letter);
 }
-char wifey;
 for (wifey = 'A'; wifey <= 'Z'; wifey++)
 {
 putchar(wifey);
