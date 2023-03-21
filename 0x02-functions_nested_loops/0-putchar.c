@@ -7,16 +7,16 @@
  * Return: 0 Always
  */
 
-int main(void)
+int _putchar(void)
 {
-int putchar('_');
-int putchar('p');
-int putchar('u');
-int putchar('t');
-int putchar('c');
-int putchar('h');
-int putchar('a');
-int putchar('r');
-int putchar('\n');
+int _putchar('_');
+int _putchar('p');
+int _putchar('u');
+int _putchar('t');
+int _putchar('c');
+int _putchar('h');
+int _putchar('a');
+int _putchar('r');
+int _putchar('\n');
 return (0);
 }
