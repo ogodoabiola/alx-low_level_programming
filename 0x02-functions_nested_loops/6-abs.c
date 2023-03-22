@@ -14,6 +14,6 @@ return (a);
 }
 else
 {
-return (-a);
+return (-1*-a);
 }
 }
