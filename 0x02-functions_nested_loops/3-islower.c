@@ -4,17 +4,17 @@
  * _islower - this is to check the lower cases
  * @c: parameter for the argument
  * Description: Adding this for the return value
- * Return 1 if char is lowercase, otherwise 0.
+ * Return: 1 if char is lowercase, otherwise 0
  */
 
 int _islower(int c)
 {
-if (c <= 'z')
+if (c >= 'a' && c <= 'z')
 {
-return (1); /* this is when c is lowercase */
+return (1);
 }
 else
 {
-return (0); /* this is when c is uppercase */
+return (0);
 }
 }
