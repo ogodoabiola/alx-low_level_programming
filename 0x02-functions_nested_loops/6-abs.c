@@ -12,11 +12,11 @@ int a;
 if (a < 0)
 {
 a = (-1) * a;
-putchar(a);
+_putchar(a);
 }
 else
 {
-putchar(a);
+_putchar(a);
 }
 return (0);
 }
