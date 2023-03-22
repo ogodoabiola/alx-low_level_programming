@@ -2,13 +2,12 @@
 
 /**
  * _abs - entry point
- * @int: a general parameter
+ * @a: a general parameter
  * Return: 0 Always
  */
 
-int _abs(int)
+int _abs(int a)
 {
-int a;
 if (a < 0)
 {
 a = (-1) * a;
