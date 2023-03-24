@@ -9,7 +9,7 @@
 int _isupper(int c)
 {
 	c = c + '0';
-		if (c == 'A', c <= 'Z', c++)
+		if (c >= 'A', c <= 'Z', c++)
 		{
 			return (1);
 		}
