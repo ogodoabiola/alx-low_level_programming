@@ -1,20 +1,22 @@
 #include "main.h"
-
 /**
-* print_line - main entry
-* @n: params for test
-* Return: 0 Always
-*/
-
+ * print_line - draws a straight line in the terminal.
+ * @n: print int
+ * Return: Always 0.
+ */
 void print_line(int n)
 {
-for (n >= 1; n < 14; n++)
+int i;
+if (n > 0)
 {
-if (n <= 0)
+for (i = 0; i < n; i++)
 {
-	_putchar('\n');
+_putchar(95);
 }
-_putchar('_');
+_putchar('\n');
 }
-putchar('\n');
+else
+{
+_putchar('\n');
+}
 }
