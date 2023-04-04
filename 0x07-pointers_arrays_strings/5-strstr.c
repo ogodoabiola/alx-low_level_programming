@@ -3,8 +3,10 @@
 /**
  * _strstr - main entry to return value
  * @haystack: first param
- * @needle: 2nd param
+ * @needle: 2nd para
+ * Return: 0 always
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 char *h;
