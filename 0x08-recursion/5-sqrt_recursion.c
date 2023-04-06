@@ -1,28 +1,30 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - main ent
- * @n: reg param
- * Return: 0
+ * _sqrt - recursor
+ * @k: 1st param
+ * @i: iterant param
+ *
+ * Return: sqrt
  */
+int _sqrt(int k, int i)
+{
+	if (i * i > k)
+		return (-1);
+	if (i * i == k)
+		return (i);
+	return (_sqrt(k, i + 1));
+}
 
-int _sqrt_recursion(int n)
+/**
+ * _sqrt_recursion - sqrt of a number.
+ * @k: number to be evaluated
+ *
+ * Return: sqrt
+ */
+int _sqrt_recursion(int k)
 {
-	int i, result;
-if (n < 0)
-{
-return (-1);
-}
-if (n == 0 || n == 1)
-{
-return (n);
-}
-i = 1;
-result = 1;
-while (result <= n)
-{
-i++;
-result = i *i;
-}
-return ((result == n) ? i : _sqrt_recursion(n - 1));
+	if (k < 0)
+		return (-1);
+	return (_sqrt(k, 0));
 }
