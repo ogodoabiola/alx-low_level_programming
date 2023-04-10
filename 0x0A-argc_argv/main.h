@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 
-int _putchar(int n);
+int _putchar(char n);
 int main(int argc, char *argv[]);
 
 #endif
