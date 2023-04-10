@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * main - the proper entry
@@ -10,10 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0; i < argc; i++)
-{
-printf("Argument %d: %s\n", i, argv[i]);
-}
+printf("%s\n", argv[0]);
+(void) argc;
 return (0);
 }
