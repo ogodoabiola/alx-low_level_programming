@@ -1,19 +1,19 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * main - the proper entry
- * @argc: the main argument
+ * @argc: 1st argument
  * @argv: 2nd argument
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-char *str = argv[0];
-for (int i = 0; str[i] != '\0'; i++)
+int i;
+for (i = 0; i < argc; i++)
 {
-_putchar(str[i]);
+printf("Argument %d: %s\n", i, argv[i]);
 }
-_putchar('\n');
 return (0);
 }
