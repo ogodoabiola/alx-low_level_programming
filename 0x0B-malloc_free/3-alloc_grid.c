@@ -1,10 +1,10 @@
-nclude "main.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * alloc_grid - main entry
- * @width: first arg
- * @height: 2nd arg
+ * alloc_grid - Main Enry
+ * @width: input
+ * @height: input
  * Return: 0
  */
 int **alloc_grid(int width, int height)
