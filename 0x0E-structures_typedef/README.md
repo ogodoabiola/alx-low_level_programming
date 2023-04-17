@@ -1,1 +1,1 @@
-type def
+type def project
